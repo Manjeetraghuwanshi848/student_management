@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Academic Grade Sheet - Manjeet Raghuvanshi (26MIM10152) | VIT Bhopal</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 12mm 15mm;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+      color: #0f172a;
+      background-color: #f1f5f9;
+    }
+    .no-print-bar {
+      max-width: 820px;
+      margin: 0 auto 16px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f172a;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.15);
+    }
+    .no-print-bar .title {
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+    .print-btn {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 9px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      transition: background 0.15s ease;
+    }
+    .print-btn:hover {
+      background: #1d4ed8;
+    }
+    .card {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 42px 46px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.06);
+    }
+    .header {
+      text-align: center;
+      border-bottom: 2.5px solid #0f172a;
+      padding-bottom: 18px;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 2px;
+      color: #0f172a;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .header h2 {
+      margin: 6px 0 0 0;
+      font-size: 15px;
+      color: #334155;
+      font-weight: 600;
+    }
+    .header .subtitle {
+      margin-top: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #2563eb;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 10px;
+      column-gap: 28px;
+      background: #f8fafc;
+      padding: 18px 24px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      border: 1px solid #e2e8f0;
+      margin-bottom: 26px;
+    }
+    .info-item {
+      display: flex;
+    }
+    .info-label {
+      font-weight: 600;
+      width: 140px;
+      color: #64748b;
+    }
+    .info-val {
+      font-weight: 700;
+      color: #0f172a;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 24px;
+      font-size: 13.5px;
+    }
+    th {
+      background-color: #0f172a;
+      color: #ffffff;
+      font-weight: 600;
+      padding: 11px 10px;
+      text-align: left;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+    }
+    th.center, td.center {
+      text-align: center;
+    }
+    td {
+      padding: 11px 10px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #1e293b;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    .badge-s {
+      background-color: #dcfce7;
+      color: #15803d;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .badge-a {
+      background-color: #dbeafe;
+      color: #1d4ed8;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .summary-box {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 16px;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+    .summary-box .item-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #1e40af;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .summary-box .item-value {
+      font-size: 22px;
+      font-weight: 800;
+      color: #1e3a8a;
+      margin-top: 4px;
+    }
+    .classification-note {
+      font-size: 12.5px;
+      color: #334155;
+      line-height: 1.6;
+      background: #ffffff;
+      border-left: 4px solid #2563eb;
+      padding: 10px 14px;
+      margin-top: 10px;
+      background: #f8fafc;
+      border-radius: 0 4px 4px 0;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px dashed #cbd5e1;
+      font-size: 12px;
+      color: #64748b;
+    }
+    .signature {
+      text-align: center;
+      width: 210px;
+    }
+    .sig-line {
+      border-top: 1px solid #334155;
+      margin-top: 42px;
+      padding-top: 5px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    @media print {
+      body {
+        background-color: #ffffff;
+        padding: 0;
+      }
+      .no-print-bar {
+        display: none;
+      }
+      .card {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="no-print-bar">
+  <div class="title"><strong>VIT Bhopal University:</strong> Student Grade Transcript</div>
+  <button class="print-btn" onclick="window.print()">Save as PDF / Print</button>
+</div>
+
+<div class="card">
+  <div class="header">
+    <h1>VIT BHOPAL UNIVERSITY</h1>
+    <h2>School of Computing Science & Engineering</h2>
+    <div class="subtitle">OFFICIAL SEMESTER GRADE REPORT & ACADEMIC TRANSCRIPT</div>
+  </div>
+
+  <div class="info-grid">
+    <div class="info-item">
+      <span class="info-label">Student Name:</span>
+      <span class="info-val">MANJEET RAGHUVANSHI</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Register Number:</span>
+      <span class="info-val">26MIM10152</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Programme:</span>
+      <span class="info-val">Integrated M.Tech (Software Engineering)</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Semester:</span>
+      <span class="info-val">Semester 3</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Academic Session:</span>
+      <span class="info-val">Fall Semester 2025–26</span>
+    </div>
+    <div class="info-item">
+      <span class="info-label">Institution:</span>
+      <span class="info-val">VIT Bhopal University</span>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="center" style="width: 85px;">Course Code</th>
+        <th>Course Title</th>
+        <th class="center" style="width: 60px;">Credits</th>
+        <th class="center" style="width: 85px;">Attendance</th>
+        <th class="center" style="width: 75px;">Marks</th>
+        <th class="center" style="width: 65px;">Grade</th>
+        <th class="center" style="width: 65px;">Points</th>
+        <th class="center" style="width: 75px;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="center"><strong>CSE1001</strong></td>
+        <td>Problem Solving & Python Programming</td>
+        <td class="center">4</td>
+        <td class="center">95.0%</td>
+        <td class="center">93.0</td>
+        <td class="center"><span class="badge-s">S</span></td>
+        <td class="center">10</td>
+        <td class="center" style="color: #15803d; font-weight: 700;">PASS</td>
+      </tr>
+      <tr>
+        <td class="center"><strong>CSE2001</strong></td>
+        <td>Data Structures & Algorithms</td>
+        <td class="center">4</td>
+        <td class="center">91.0%</td>
+        <td class="center">86.5</td>
+        <td class="center"><span class="badge-a">A</span></td>
+        <td class="center">9</td>
+        <td class="center" style="color: #15803d; font-weight: 700;">PASS</td>
+      </tr>
+      <tr>
+        <td class="center"><strong>MAT1001</strong></td>
+        <td>Calculus & Linear Algebra</td>
+        <td class="center">4</td>
+        <td class="center">93.0%</td>
+        <td class="center">89.0</td>
+        <td class="center"><span class="badge-a">A</span></td>
+        <td class="center">9</td>
+        <td class="center" style="color: #15803d; font-weight: 700;">PASS</td>
+      </tr>
+      <tr>
+        <td class="center"><strong>ENG1001</strong></td>
+        <td>Technical Communication</td>
+        <td class="center">2</td>
+        <td class="center">96.0%</td>
+        <td class="center">94.0</td>
+        <td class="center"><span class="badge-s">S</span></td>
+        <td class="center">10</td>
+        <td class="center" style="color: #15803d; font-weight: 700;">PASS</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="summary-box">
+    <div>
+      <div class="item-title">Credits Registered</div>
+      <div class="item-value">14</div>
+    </div>
+    <div>
+      <div class="item-title">Credits Earned</div>
+      <div class="item-value">14</div>
+    </div>
+    <div>
+      <div class="item-title">Semester SGPA</div>
+      <div class="item-value">9.43</div>
+    </div>
+    <div>
+      <div class="item-title">Cumulative CGPA</div>
+      <div class="item-value">9.43 / 10.0</div>
+    </div>
+  </div>
+
+  <div class="classification-note">
+    <strong>Academic Standing:</strong> Passed with First Class with Distinction (Dean's Merit List).<br>
+    <strong>CGPA Formula:</strong> &sum;(Course Credits &times; Grade Point) / &sum;(Course Credits) = 132 / 14 = <strong>9.43</strong>
+  </div>
+
+  <div class="footer">
+    <div class="signature">
+      <div class="sig-line">Faculty Advisor</div>
+      <div>VIT Bhopal University</div>
+    </div>
+    <div style="text-align: center; align-self: flex-end;">
+      <div>Verified via Student Management System (SMS)</div>
+      <div style="font-size: 11px; color: #94a3b8;">System Digital Hash: 26MIM10152-VITB-AUTH</div>
+    </div>
+    <div class="signature">
+      <div class="sig-line">Controller of Examinations</div>
+      <div>VIT Bhopal University</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

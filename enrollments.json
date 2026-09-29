@@ -1,0 +1,202 @@
+[
+  {
+    "student_id": "26MIM10152",
+    "course_code": "CSE1001",
+    "attendance_pct": 95.0,
+    "marks": 93.0,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10152",
+    "course_code": "CSE2001",
+    "attendance_pct": 91.0,
+    "marks": 86.5,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10152",
+    "course_code": "MAT1001",
+    "attendance_pct": 93.0,
+    "marks": 89.0,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10152",
+    "course_code": "ENG1001",
+    "attendance_pct": 96.0,
+    "marks": 94.0,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10172",
+    "course_code": "CSE1001",
+    "attendance_pct": 96.0,
+    "marks": 95.0,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10172",
+    "course_code": "CSE2001",
+    "attendance_pct": 92.5,
+    "marks": 88.0,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10172",
+    "course_code": "MAT1001",
+    "attendance_pct": 90.0,
+    "marks": 85.5,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "26MIM10172",
+    "course_code": "ENG1001",
+    "attendance_pct": 95.0,
+    "marks": 92.0,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1001",
+    "course_code": "CSE1001",
+    "attendance_pct": 94.0,
+    "marks": 92.5,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1001",
+    "course_code": "CSE2001",
+    "attendance_pct": 88.0,
+    "marks": 84.0,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1001",
+    "course_code": "MAT1001",
+    "attendance_pct": 90.0,
+    "marks": 78.0,
+    "letter_grade": "B",
+    "grade_point": 8,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1002",
+    "course_code": "CSE1001",
+    "attendance_pct": 96.0,
+    "marks": 95.0,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1002",
+    "course_code": "CSE2001",
+    "attendance_pct": 92.0,
+    "marks": 89.0,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1002",
+    "course_code": "MAT1001",
+    "attendance_pct": 85.0,
+    "marks": 91.0,
+    "letter_grade": "S",
+    "grade_point": 10,
+    "status": "Completed",
+    "enrolled_on": "2026-01-15"
+  },
+  {
+    "student_id": "STU1003",
+    "course_code": "CSE1001",
+    "attendance_pct": 72.0,
+    "marks": 64.0,
+    "letter_grade": "C",
+    "grade_point": 7,
+    "status": "Completed",
+    "enrolled_on": "2026-01-16"
+  },
+  {
+    "student_id": "STU1003",
+    "course_code": "MAT1001",
+    "attendance_pct": 68.0,
+    "marks": 52.0,
+    "letter_grade": "D",
+    "grade_point": 6,
+    "status": "Completed",
+    "enrolled_on": "2026-01-16"
+  },
+  {
+    "student_id": "STU1004",
+    "course_code": "ECE1002",
+    "attendance_pct": 91.0,
+    "marks": 86.0,
+    "letter_grade": "A",
+    "grade_point": 9,
+    "status": "Completed",
+    "enrolled_on": "2026-01-16"
+  },
+  {
+    "student_id": "STU1004",
+    "course_code": "MAT1001",
+    "attendance_pct": 89.0,
+    "marks": 74.0,
+    "letter_grade": "B",
+    "grade_point": 8,
+    "status": "Completed",
+    "enrolled_on": "2026-01-16"
+  },
+  {
+    "student_id": "STU1005",
+    "course_code": "MAT1001",
+    "attendance_pct": 62.0,
+    "marks": 38.0,
+    "letter_grade": "F",
+    "grade_point": 0,
+    "status": "Completed",
+    "enrolled_on": "2026-01-17"
+  },
+  {
+    "student_id": "STU1006",
+    "course_code": "CSE1001",
+    "attendance_pct": 82.0,
+    "marks": 76.0,
+    "letter_grade": "B",
+    "grade_point": 8,
+    "status": "Completed",
+    "enrolled_on": "2026-01-17"
+  }
+]

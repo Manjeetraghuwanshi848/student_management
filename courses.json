@@ -1,0 +1,42 @@
+[
+  {
+    "course_code": "CSE1001",
+    "title": "Problem Solving & Python",
+    "credits": 4,
+    "department": "Computer Science",
+    "instructor": "Dr. A. Raman",
+    "max_capacity": 60
+  },
+  {
+    "course_code": "CSE2001",
+    "title": "Data Structures & Algorithms",
+    "credits": 4,
+    "department": "Computer Science",
+    "instructor": "Prof. M. Kulkarni",
+    "max_capacity": 50
+  },
+  {
+    "course_code": "MAT1001",
+    "title": "Calculus & Linear Algebra",
+    "credits": 4,
+    "department": "Mathematics",
+    "instructor": "Dr. S. Banerjee",
+    "max_capacity": 65
+  },
+  {
+    "course_code": "ECE1002",
+    "title": "Digital Logic Design",
+    "credits": 3,
+    "department": "Electronics",
+    "instructor": "Prof. V. Reddy",
+    "max_capacity": 45
+  },
+  {
+    "course_code": "ENG1001",
+    "title": "Technical Communication",
+    "credits": 2,
+    "department": "Humanities",
+    "instructor": "Dr. L. Fernandez",
+    "max_capacity": 70
+  }
+]

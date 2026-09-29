@@ -1,0 +1,74 @@
+[
+  {
+    "student_id": "26MIM10152",
+    "name": "Manjeet Raghuvanshi",
+    "email": "manjeet.raghuvanshi2026@vitstudent.ac.in",
+    "phone": "9876543202",
+    "department": "Integrated M.Tech Software Engineering",
+    "semester": 3,
+    "created_at": "2026-01-08 10:15:00"
+  },
+  {
+    "student_id": "26MIM10172",
+    "name": "Neeraj Mewada",
+    "email": "neeraj.mewada2026@vitstudent.ac.in",
+    "phone": "9876543201",
+    "department": "Integrated M.Tech Software Engineering",
+    "semester": 3,
+    "created_at": "2026-01-08 10:00:00"
+  },
+  {
+    "student_id": "STU1001",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@campus.edu",
+    "phone": "9876543210",
+    "department": "Computer Science",
+    "semester": 4,
+    "created_at": "2026-01-10 09:30:00"
+  },
+  {
+    "student_id": "STU1002",
+    "name": "Priya Nair",
+    "email": "priya.nair@campus.edu",
+    "phone": "9876543211",
+    "department": "Computer Science",
+    "semester": 4,
+    "created_at": "2026-01-10 10:15:00"
+  },
+  {
+    "student_id": "STU1003",
+    "name": "Rohan Verma",
+    "email": "rohan.verma@campus.edu",
+    "phone": "9876543212",
+    "department": "Information Tech",
+    "semester": 3,
+    "created_at": "2026-01-11 11:00:00"
+  },
+  {
+    "student_id": "STU1004",
+    "name": "Ananya Iyer",
+    "email": "ananya.iyer@campus.edu",
+    "phone": "9876543213",
+    "department": "Electronics",
+    "semester": 4,
+    "created_at": "2026-01-11 14:20:00"
+  },
+  {
+    "student_id": "STU1005",
+    "name": "Kavya Patel",
+    "email": "kavya.patel@campus.edu",
+    "phone": "9876543214",
+    "department": "Mechanical",
+    "semester": 2,
+    "created_at": "2026-01-12 16:45:00"
+  },
+  {
+    "student_id": "STU1006",
+    "name": "Devendra Joshi",
+    "email": "dev.joshi@campus.edu",
+    "phone": "9876543215",
+    "department": "Computer Science",
+    "semester": 4,
+    "created_at": "2026-01-13 12:00:00"
+  }
+]

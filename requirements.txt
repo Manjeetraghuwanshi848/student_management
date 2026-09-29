@@ -1,0 +1,15 @@
+# Python Essentials Project - Student Management System
+# Institution: VIT Bhopal University
+# Author: Manjeet Raghuvanshi (26MIM10152)
+#
+# This project is designed strictly using the Python Standard Library (Python 3.8+)
+# to ensure zero external dependencies, seamless offline execution, and 100% portability.
+#
+# Standard library modules utilized:
+# - json (data persistence and schema serialization)
+# - csv (institutional grade and student reports export)
+# - pathlib, os, shutil (cross-platform atomic file handling)
+# - re (regex input validation for IDs, emails, phone numbers)
+# - argparse (command-line flag dispatching and CI integration)
+# - datetime (record timestamping and enrollment tracking)
+# - unittest (comprehensive unit and boundary testing)

@@ -1,0 +1,21 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "."
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}",
+    "."
+  ],
+  "python.terminal.executeInFileDir": false,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./tests",
+    "-p",
+    "test_*.py"
+  ],
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
